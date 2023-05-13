@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "jest --detectOpenHandles --testEnvironment=node --runInBand --coverage --forceExit",
+    "test": "jest --coverage",
     "start": "node server.js"
   },
   "author": "",
@@ -19,6 +19,6 @@
     "validate.js": "^0.13.1"
   },
   "devDependencies": {
-    "jest": "^29.5.0"
+    "@types/jest": "^29.5.0"
   }
 }
