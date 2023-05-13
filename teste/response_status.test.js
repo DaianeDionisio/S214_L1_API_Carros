@@ -6,9 +6,8 @@ it('Status Code OK', () => {
     expect(result).toEqual(200);
 });
 
-/*
+
 it('Status Code BAD REQUEST', () => {
     const result = Utils.responseStatus(Constants.ErrorValidation.name);
     expect(result).toEqual(400);
 });
-*/
