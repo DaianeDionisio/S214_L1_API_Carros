@@ -29,3 +29,5 @@ const CarroModel = mongoose.model('UserModel', CarroSchema);
 module.exports = {
     CarroModel,
 };
+
+mongoose.connection.close();

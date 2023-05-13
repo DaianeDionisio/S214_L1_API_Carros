@@ -19,3 +19,8 @@ it('Caso inválido - sem o parâmetro placa', () => {
     });
     expect(result.name).toEqual(Constants.ErrorValidation.name);
 });
+
+
+
+
+
